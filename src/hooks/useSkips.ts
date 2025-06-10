@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import type { RawSkip, Skip } from '@/types';
 import { processSkips } from '@/utils/skip';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://api.example.com/skips';
+const API_URL = import.meta.env.VITE_API_URL as string;
 const fetchRawSkips = async (): Promise<RawSkip[]> => {
   const res = await fetch(API_URL);
   if (!res.ok) throw new Error('Failed to fetch skips');

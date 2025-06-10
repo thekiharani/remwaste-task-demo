@@ -56,7 +56,7 @@ export const SkipSelectorPage: React.FC = () => {
         </div>
 
         {/* --- Bottom Navigation --- */}
-        <div className="mt-12 flex justify-between items-center">
+        <div className="mt-12 flex justify-between items-center sticky bottom-0 bg-white p-4 shadow-md">
           <button className="text-gray-600 font-semibold hover:text-gray-900 transition-colors">
             Back
           </button>

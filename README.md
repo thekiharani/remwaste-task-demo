@@ -110,3 +110,7 @@ The project uses an environment variable to define the API endpoint URL.
     ```
 
 The application will be available at `http://localhost:3002`.
+
+---
+
+> Disclosure: I used AI to help me format and make this content as elaborate as it is. I just gave it points of what I wanted documented, a short instruction, and edited the final copy of what it gave me to come up with this docs.
